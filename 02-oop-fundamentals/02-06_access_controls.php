@@ -15,22 +15,23 @@ class Car {
     // Only available inside the class and in subclasses
 
     function car_detail(){
-        echo $this->wheels;
-        echo $this->doors;
-        echo $this->gear;        
+        echo $this->wheels. '<br>';
+        echo $this->doors. '<br>';
+        echo $this->gear. '<br>';        
     }
 
 }
 
-$bmw = new Car;
+// $bmw = new Car;
 
-echo $bmw->wheels;
+// echo $bmw->wheels;
+// echo '<br>';
 
-echo $bmw->gear;
+// echo $bmw->gear;
 // protected - will get error
 
-echo $bmw->doors;
+// echo $bmw->doors;
 // private - will get error
 
-echo $bmw->car_detail();
+// echo $bmw->car_detail();
 // All will appear

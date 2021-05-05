@@ -10,8 +10,8 @@ class Car {
     // protected $gear = 'Automatic';
 
     static function car_detail(){
-        echo self::$wheels;
-        echo Car::$doors;   
+        echo self::$wheels. '<br>';
+        echo Car::$doors. '<br>';   
     }
     // Can use class name or "Self"
 
@@ -28,4 +28,4 @@ class Car {
 // Have to use the $ sign with static modifiers
 
 // Calling static method
-echo Car::car_detail();
+// echo Car::car_detail();
