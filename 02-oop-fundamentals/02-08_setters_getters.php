@@ -1,14 +1,17 @@
 <?php
 // Setters and Getters
+// Usually set and get values from private properties
+
 
 class Car {
 
     private $doors = 4;
-    // Property can only be accessed in this class
+    // Private property can only be accessed in this class
 
     function get_values(){
 
         echo $this->doors;
+        echo '<br>';
 
     }
 
@@ -25,6 +28,8 @@ $bmw = new Car;
 // echo $bmw->doors;
 // Cannot access private property
 // Have to use setters/getters
+
+$bmw->get_values();
 
 $bmw->set_values();
 

@@ -4,7 +4,7 @@
 
 class Car {
 
-
+    // public $wheels = 4;
     static $wheels = 4;
     static $doors = 2;
     // protected $gear = 'Automatic';

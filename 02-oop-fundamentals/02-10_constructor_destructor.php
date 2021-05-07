@@ -3,14 +3,16 @@
 
 class Car {
     
-    public $wheels = 4;
+    public $wheels = 6;
 
     static $doors = 2;
 
     // Echoes the property automatically when instance is created
-   function __construct(){
-        // echo $this->wheels; 
+    function __construct(){
+        // echo $this->wheels;
+        // echo '<br>'; 
         echo self::$doors++;
+        echo '<br>';
         // Each instance increments value
     }
 
@@ -18,6 +20,7 @@ class Car {
     // Uninitializes
     function __destruct(){
         echo self::$doors--;
+        echo '<br>';
     }
 }
 
