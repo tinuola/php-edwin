@@ -1,10 +1,10 @@
 <?php
-// Class Properties
+// Class Properties / Attributes / Variables
 
 class Car {
 
     // Declare variable
-    // Use var -- is that older way?
+    // Use var keyword inside of a class to declare variables
     var $wheel_count = 4;
 
     public $door_count = 2;
@@ -12,6 +12,9 @@ class Car {
     function car_detail(){
         return "This has " . $this->wheel_count . " wheels.";
     }
+
+    // $this refers to specific class object being referenced.
+    // $this->wheel_count means get the wheel_count property of this class.
 
 }
 
@@ -21,7 +24,8 @@ $lexus = new Car;
 
 // Access the property
 // $ sign not needed
-// echo $bmw->wheel_count;
+echo $bmw->wheel_count;
+echo '<br>';
 
 // Change value
 echo $bmw->wheel_count = 14;

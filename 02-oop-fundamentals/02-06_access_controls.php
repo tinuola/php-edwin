@@ -22,16 +22,16 @@ class Car {
 
 }
 
-// $bmw = new Car;
+$bmw = new Car;
 
 // echo $bmw->wheels;
-// echo '<br>';
-
-// echo $bmw->gear;
-// protected - will get error
+// public - will appear
 
 // echo $bmw->doors;
 // private - will get error
+
+// echo $bmw->gear;
+// protected - will get error
 
 // echo $bmw->car_detail();
 // All will appear
