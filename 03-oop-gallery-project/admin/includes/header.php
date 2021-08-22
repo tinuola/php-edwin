@@ -1,3 +1,9 @@
+<!-- PHP function to start output buffering -->
+<?php ob_start(); ?>
+
+<!-- Makes sure all files get initialized -->
+<?php include("init.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
