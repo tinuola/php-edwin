@@ -21,7 +21,27 @@
 						// echo $user_found['username'];
 						// echo "<pre>";
 						// print_r($user_found);
-					?>
+
+						// Get users from user class
+						// $user = new User();
+						// $result_set = $user->find_all_users();
+						// OOP Refactor:
+						// $result_set = User::find_all_users();
+						// while($row = mysqli_fetch_array($result_set)){
+						// 	echo $row['username'] . "<br>";
+						// }
+
+						// Get user by id
+						// $result_set = User::find_user_by_id(2);
+						// $user_id = mysqli_fetch_array($result_set);
+						// echo $user_id['username'];
+
+						// Edwin solution:
+							$found_user = User::find_user_by_id(3);
+							echo $found_user['username'];
+
+
+						?>
 
 					<ol class="breadcrumb">
 							<li>
