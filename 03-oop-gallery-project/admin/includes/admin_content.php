@@ -37,8 +37,8 @@
 						// echo $user_id['username'];
 
 						// Edwin solution:
-							$found_user = User::find_user_by_id(3);
-							echo $found_user['username'];
+							// $found_user = User::find_user_by_id(3);
+							// echo $found_user['username'];
 
 
 						?>
