@@ -2,7 +2,6 @@
 
 Exercise files for _PHP OOP: Object Oriented Programming for beginners + Project_ Udemy course with Edwin Diaz.
 
-<<<<<<< HEAD
 #### Section 2
 
 - OOP Fundamentals
@@ -12,7 +11,3 @@ Exercise files for _PHP OOP: Object Oriented Programming for beginners + Project
 - Reorganizing admin folder file structures
 - Building admin pages
 - Creating database and user tables
-=======
-### Section 2
-+ OOP Fundamentals
->>>>>>> ff476a5 (Update README with section 2 details)
