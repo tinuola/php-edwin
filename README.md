@@ -12,7 +12,7 @@ Exercise files for _PHP OOP: Object Oriented Programming for beginners + Project
 - Building admin pages
 - Creating database and user tables
 
-### Section 4 - Database Class
+#### Section 4 - Database Class
 
 - Set up database connection
 - Initializing files
